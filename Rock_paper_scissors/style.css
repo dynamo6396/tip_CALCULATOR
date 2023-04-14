@@ -1,0 +1,37 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: #1c1c1c;
+    /* border: 2px solid red; */
+}
+button{
+    height: 100px;
+    width: 100px;
+    /* background-color: rgb(238, 217, 217); */
+    /* border: 2px solid red; */
+    margin: 20px;
+    font-size: 50px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.result_container{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    /* cursor: pointer; */
+}
