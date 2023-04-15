@@ -1,0 +1,64 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    color: white;
+}
+.page{
+   margin: 100px auto;
+   padding: 30px;
+   /* border: 2px solid red; */
+   background-color: rgb(48, 48, 87);
+   height: 525px;
+   width: 360px;
+   border-radius: 40px;
+}
+#top{
+    margin-top: 80px;
+}
+#mid{
+    margin-top: 40px;
+}
+.inputcontainer{
+    margin-top: 10px;
+    padding: 9px;
+    border-radius: 20px;
+    background-color: black;
+}
+input{
+    background-color: black;
+    outline: none;
+    border: none;
+    font-size: 25px;
+}
+.splitcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+button{
+    border: none;
+    background-color: black;
+    border-radius: 10px;
+    /* padding: 2px; */
+}
+.buttonText{
+    font-size: 19px;
+}
+.controls{
+   display: flex;
+   gap: 9px;
+   text-align: center;
+   font-size: 25px;
+}
+.title{
+    font-weight: bold;
+}
